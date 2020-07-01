@@ -32,7 +32,7 @@ ajaxGet("https://restcountries.eu/rest/v2/all", function (reponse) {
     });
 });
 
-
+console.log(thomas);
 
 //         let capitalELT = document.createElement("p");
 //         capitalELT.textContent = pays.capital;

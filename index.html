@@ -13,14 +13,24 @@
 
 <body class="background">
 
-    
 
     <div class="container">
-
         <h1>Show the countries</h1>
-        
-        <div id="lesPays"></div>
 
+
+        <form id="auto-suggest" action="#" method="post">
+
+            <input type="text" id="choisirPays" class="search" name="search" value="Rechercher..." onfocus="if(this.value=='Rechercher...')this.value=''" onblur="if(this.value=='')this.value='Rechercher...'" autocomplete="off"/>
+
+            
+        </form>
+
+        <p>Once you choose a country clik the button to see all the information about this country</p>
+        <button>Discover this country</button>
+
+        <div id="lesPays"></div>
+        <div id="infosPays"></div>
+        
 
     </div>
     <!-- Javascript -->
